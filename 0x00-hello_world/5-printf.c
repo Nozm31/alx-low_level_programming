@@ -1,15 +1,11 @@
-#include <stdio.h>
-
-
+#include<stdio.h>
 /**
- * main - prints "with proper grammar, but the outcome is a piece of art," followed newline
- * Return: ALWAYS 0
- *
+* main- Entry point
+*
+* Return: Always 0 (Success)
 */
-
-int main(void)
-
+int main (void)
 {
-	pintf("with proper grammar, but the outcome is a piece of art,\n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
-}	
+}
