@@ -1,6 +1,6 @@
-#include <main.h>
+#include "main.h"
 
-positive_or_negative(int i)
+void positive_or_negative(int i)
 {
 	if(1 > 0)
 		printf("%d is positive\n", i);
